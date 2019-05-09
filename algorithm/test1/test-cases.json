@@ -1,0 +1,10 @@
+[
+    {
+        "array": ["abc","ab","def","a","b","c","hik","ba","d"],
+        "output": 1
+    },
+    {
+        "array": ["ab","a","cd","de","qwe","req","zyx"],
+        "output": 2
+    }
+]
