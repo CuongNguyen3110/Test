@@ -1,9 +1,11 @@
+
 findTheSumOfTop2 = (array) => {
     let sortedArray =  descendingSort(array);
     
     return sortedArray[0] + sortedArray[1];
 }
 
+// bubble sorting
 descendingSort = (input) => {
     for (let i = 0; i < input.length - 1; i++) {
         for (let j = 0; j < input.length - i; j++) {
@@ -17,4 +19,5 @@ descendingSort = (input) => {
     return input;
 }
 
-console.log(findTheSumOfTop2([2,3,4,2,1,2,4,7]));
+module.exports = findTheSumOfTop2;
+
