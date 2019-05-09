@@ -6,5 +6,9 @@
     {
         "array": ["ab","a","cd","de","qwe","req","zyx"],
         "output": 2
+    },
+    {
+        "array": ["b","a","cd","de","qwe","req","zyx"],
+        "output": 3
     }
 ]
